@@ -1,0 +1,18 @@
+#where i am starting trying to think like a client to get all the requirements before starting an erd then the sql itself.
+i want this database to store all my recepies.
+i need it to have information about the ingredients, the equipment used, the steps of the recepie and other nescessary details.
+i want it to have information about measurements so i can use a program to change the serving sizes, or to be able to switch between cups and milliliters etc.
+Ingredients: 
+  i need it to be able to give me a list at the start of which ingredients are needed and how much
+  i want it to be able to give me nutrition information ie calories macros so i can later make it work out the rough nutrition info of the recepies themselves
+equipment:
+  i want it to give me a list of equipment nescessary at the start
+steps:
+  i want it to 
+other:
+  prep time, cooking time, serving size, 
+  i want to classify the recepies based off what sort of meal it is: breakfast, drink, desert, snack, side, main, sauce
+  i want to classify the recepies based off what the main ingredient is: bread, rice, potato, beef, pork, chicken, vegetables, baking?, other
+  i would like an image saved for each recepie
+  a small txt description of what the recepie is
+  
