@@ -5,6 +5,8 @@ CREATE TABLE Recepies (RID int NOT NULL identity primary key, RName VARCHAR(40) 
 
 CREATE TABLE Ingredients (IID int NOT NULL identity primary key, IName VARCHAR(40) not null, IAltNames VARCHAR(100), IEssential bit, IStored Varchar(15), ICalories float, IFat float, IProtein float, ICarbs float);
 
+CREATE TABLE RecepiesIngredients (RID int not null, foreign key (RID) references Recepies(RID), IID int not null, foreign key (IID) references Ingredients(IID));
+
 --ingredients for fritatta
 INSERT INTO Ingredients VALUES('butter', null, 1, 'fridge', 717, 81, 0.8, 0.1);
 INSERT INTO Ingredients VALUES('egg', null, 1, 'fridge', null, null, null, null);
@@ -14,4 +16,6 @@ INSERT INTO Ingredients VALUES('potato', null, 0, 'pantry',  null, null, null, n
 INSERT INTO Ingredients VALUES('brocolli', null, 0, 'fridge',  null, null, null, null);
 INSERT INTO Ingredients VALUES('capcicum', null, 0, 'fridge',  null, null, null, null);
 
+-- time data type hh:mm:ss within single quote marks
 INSERT INTO Recepies VALUES('fritata', null, 'main', 'egg', '0:20:0', '0:10:0', 6, 'fritata.txt');
+
