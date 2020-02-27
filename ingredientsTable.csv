@@ -1,0 +1,8 @@
+﻿IID,IName,IAltNames,IEssential,IStored,ICalories,IFat,IProtein,ICarbs
+1,butter,NULL,1,fridge,717,81,0.8,0.1
+2,egg,NULL,1,fridge,NULL,NULL,NULL,NULL
+3,cream,NULL,0,fridge,NULL,NULL,NULL,NULL
+4,tasty cheese,NULL,0,fridge,NULL,NULL,NULL,NULL
+5,potato,NULL,0,pantry,NULL,NULL,NULL,NULL
+6,brocolli,NULL,0,fridge,NULL,NULL,NULL,NULL
+7,capcicum,NULL,0,fridge,NULL,NULL,NULL,NULL
